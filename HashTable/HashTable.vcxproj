@@ -78,6 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="HashTable.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="LinkedList.h" />
   </ItemGroup>
