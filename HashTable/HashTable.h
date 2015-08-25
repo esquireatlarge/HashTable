@@ -21,6 +21,8 @@ public:
 
     void Histogram();
 
+    ~HashTable();
+
 private:
     
     int m_size;
