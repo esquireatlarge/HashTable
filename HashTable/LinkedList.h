@@ -36,7 +36,7 @@ public:
         else
         {
             Item<T>* runner = m_head;
-            while (runner->next) runner = runner->GetNext();
+            while (runner->GetNext()) runner = runner->GetNext();
             runner->SetNext(new Item<T>(value));
 
         }
